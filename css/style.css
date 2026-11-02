@@ -114,12 +114,7 @@ header {
   display: flex;
   align-items: center;
   padding: 70px 8%;
-  background:
-    linear-gradient(90deg,
-    rgba(8,45,25,0.92),
-    rgba(8,45,25,0.48)),
-    url("https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=1800&q=85")
-    center/cover no-repeat;
+ background: #082d19;
   color: white;
 }
 
