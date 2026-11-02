@@ -99,7 +99,17 @@ header {
 
 /* Homepage hero */
 
+/* Homepage hero */
+
 .hero {
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  padding: 70px 8%;
+  background: #082d19;
+  color: white;
+}
+{
   min-height: 560px;
   display: flex;
   align-items: center;
