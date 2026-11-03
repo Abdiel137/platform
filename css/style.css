@@ -388,7 +388,7 @@ footer p {
   padding: 70px 8%;
   background:
     linear-gradient(rgba(8, 45, 25, 0.78), rgba(8, 45, 25, 0.85)),
-    url("../abdiel-photo.jpg.jpeg") center/cover no-repeat;
+   url("/platform/abdiel-photo.jpg.jpeg") center/cover no-repeat;
   color: white;
 }
 
@@ -400,7 +400,7 @@ footer p {
   transform: translateY(-50%);
   width: 180px;
   height: 180px;
-  background: url("../rlty-logo.jpg.jpg") center/contain no-repeat;
+  background: url("/platform/rlty-logo.jpg.jpg") center/contain no-repeat;
   opacity: 0.35;
   pointer-events: none;
 }
