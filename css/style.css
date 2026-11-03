@@ -380,3 +380,33 @@ footer p {
     justify-content: center;
   }
 }
+.hero {
+  position: relative;
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  padding: 70px 8%;
+  background:
+    linear-gradient(rgba(8, 45, 25, 0.78), rgba(8, 45, 25, 0.85)),
+    url("../abdiel-photo.jpg.jpeg") center/cover no-repeat;
+  color: white;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 180px;
+  height: 180px;
+  background: url("../rlty-logo.jpg.jpg") center/contain no-repeat;
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+}
